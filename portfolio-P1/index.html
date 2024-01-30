@@ -1,144 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-  <div id="header">
-    <div class="container">
-      <nav>
-        <img src="images/logo.png" class="logo">
-        <ul>
-          <li><a href="#header">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <div class="header-text">
-        <p>Full Stack Web Developer</p>
-        <h1>Hi, I'm <span>Raghavendra</span> <br>Nelagali From Belgaum</h1>
-      </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                     <li><a href="#header">Home</a></li>
+                     <li><a href="#about">About</a></li>
+                     <li><a href="#projects">Projects</a></li>                    
+                     <li><a href="#contact">Contact</a></li>  
+                </ul>
+                
+            </nav>
+
+            <div class="namepic">
+                <div class="header-text">
+                    <p>Full Stack Developer</p>
+                    <h1>Hi, I'm <span>Raghavendra</span><br>Nelagali From Belgaum</h1>
+                 </div>
+    
+                <div class="bgphoto">
+                <img src="images/IMG_5392.jpg">
+                </div>
+
+            </div>
+        
+        </div>
     </div>
+
+
+           <!---------------------- ABOUT ---------------------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                 <div class="about-col-1">
+                       <img src="images/IMG_9390.JPG">
+                 </div>
+                        
+                 <div class="about-col-2">
+                    <div>
+                        <h1 class="sub-title">About Me</h1>
+                           <p>Detail-oriented and passionate Java Full Stack Developer, adept in both front-end and
+                            back-end technologies. Recent graduate with a [BCOM] in [ACCOUNTS and
+                            STATISTICS], showcasing hands-on proficiency in Java.</p>
+                    </div>
+                    
+                   <div class="info">
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <p class="tab-links active-links">Skills</p>
+                      <ul>
+                        
+                          <li><span>Front-end Devlopment</span><br>- Html,Css,Javascript</li>
+                          <li><span>Back-end Devlopment</span><br>- Java (Core-java,Advance-java)</li>
+                          <li><span>Database</span><br>- Mysql</li>
+                      </ul>
+                   </div>
+
+                   <div class="tab-contents" id="Projects">
+                       <p class="tab-links active-links">Projects</p>
+                      <ul>
+                        
+                          <li><span>Portfolio</span><br>- Using Html,Css</li>
+                          <li><span>To-Do List</span><br>- Using Html,Css,Javascript</li>
+                          
+                      </ul>
+                   </div>
+
+                   <div class="tab-contents" id="Education">
+                    <p class="tab-links active-links">Education</p>
+                      <ul>
+                        
+                          <li><span>BCOM - 2023 (70.05%)</span><br>- from Gogte College of Commerce</li>
+                          <li><span>PUC - 2020 (61.66%)</span><br>- from RPD College of Commerce </li>
+                          <li><span>SSLC - 2017 (75.20%)</span><br>- from B K Model High School</li>
+                      </ul>
+                   </div>
+                   </div>
+                   
+                  
+                 </div>
+          </div>
+        </div>
   </div>
 
+
+         <!---------------------- PROJECTS ---------------------->
   
-  <div id="about">
+
+  <div id="projects">
     <div class="container">
-     <div class="row">
-       <div class="about-col-1">
-          <img src="images/user.png">
-       </div>
-       <div class="about-col-2">
-         <h1 class="sub-title">About Me</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Dolorem dolor ducimus totam esse molestias officia 
-            quisquam molestiae natus atque recusandae laboriosam cumque,
-            doloremque assumenda? Consectetur quae at eos sit quasi.</p>
+       <h1 class="sub-title">My Projects</h1>
 
-            <div class="tab-titles">
-               <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
-               <p class="tab-links active-links" onclick="opentab('projects')">Projects</p>
-               <p class="tab-links active-links" onclick="opentab('education')">Education</p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-             <ul>
-                <li><span>Front-end Devlopment</span><br>Html,Css,JavaScript</li>
-                <li><span>Back-end Development</span><br>Java(core-java,Advance-java)</li>
-                <li><span>Database</span><br>MySql</li>
-                <li><span>Git&GitHub</span><br>Basics</li>
-             </ul>
-            </div>
-            <div class="tab-contents" id="projects">
-             <ul>
-                <li><span>Portfolio</span><br>Using-Html,Css,JavaScript</li>
-                <li><span>Weather App</span><br>Using-Html,Css,JavaScript,Api</li>
-                <li><span>Creating Bank A/c</span><br>Using-Java,Html,Css,MySql</li>
-             </ul>
-            </div>
-            <div class="tab-contents" id="education">
-             <ul>
-                <li><span>2020-2023</span><br>Bcom from Gogte College of Commerce Belgaum.</li>
-                <li><span>2018-2020</span><br>PUC from RPD College of Commerce Belgaum</li>
-                <li><span>2018</span><br>SSLC from B K Model High School Belgaum </li>
-             </ul>
-            </div>
+       <div class="work-list">
+
+           <div class="work">
+               <img src="images/portfolio.png">
+           </div>
+
+           <div class="work">
+               <img src="images/TO-DO List.png">  
+           </div>
+
        </div>
-     </div>
     </div>
- </div>
-
- 
- <div id="projects">
-  <div class="container">
-     <h1 class="sub-title">My Projects</h1>
-
-     <div class="work-list">
-
-         <div class="work">
-             <img src="images/portfolio.png">
-             <div class="layer">
-                 <h3>Portfolio</h3>
-                 <p>using html css Javascript</p>
-                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-             </div>
-         </div>
-
-         <div class="work">
-             <img src="images/weather_.png">
-             <div class="layer">
-                 <h3>Weather App</h3>
-                 <p>using html css Javascript</p>
-                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-             </div>
-         </div>
-
-         <div class="work">
-             <img src="images/sign_up.png">
-             <div class="layer">
-                 <h3>Create Bank-Account</h3>
-                 <p>using html css Java Mysql</p>
-                 <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-             </div>
-         </div>
-
-     </div>
-  </div>
 
 </div>
 
+
+
+<!----------------------CONTACT US---------------------->
 
 <div id="contact">
-  <div class="container">
-      <div class="row">
-          <div class="contact-left">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
 
-              <h1 class="sub-title">Contact Me</h1>
+                <h1 class="sub-title">Contact Me</h1>
 
-              <p><i class="fa-solid fa-paper-plane"></i>raghunelagali121@@gmail.com</p>
-              <p><i class="fa-solid fa-phone-volume"></i>7899044563</p>
+                <p><i class="fa-solid fa-paper-plane"></i>raghunelagali121@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>7899044563</p>
 
-              <div class="social-icons">
-                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                  <a href=""><i class="fa-brands fa-instagram"></i></a>
-                  <a href=""><i class="fa-brands fa-twitter"></i></a>
-              </div>
-             
-                  <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
-          
-          </div>
-      </div>
-  </div>
-  <div class="copyright">
-      <P>Copyright © Raghavendra. Made<i class="fas fa-heart"></i> by Raghavendra Nelagali</P>
-  </div>
+               
+                    <a href="images/raghav.pdf" download class="btn btn2">Download CV</a>
+            
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <P>Copyright © Raghavendra. Made With <i class="fas fa-heart"></i> by Raghavendra Nelagali</P>
+    </div>
 </div>
 
-<script src="start.js"></script>
+</body>
+</html>
+  
 </body>
 </html>
