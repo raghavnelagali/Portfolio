@@ -14,6 +14,7 @@ This is my personal portfolio website created to showcase my skills, projects, a
 ## ✨ Features
 1. Responsive and clean UI design  
 2. Home section with introduction  
+3. About section with skills and education  
 
 ---
 
@@ -33,6 +34,9 @@ portfolio/
 ## 📸 Screenshots
 ### 🏠 Home Page
 ![Home](images/home.png)
+
+### 👤 About Page
+![About](images/about.png)
 ---
 
 ## 📌 Author

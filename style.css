@@ -71,3 +71,72 @@ html{
     width: 300px;
     border-radius: 50%;
 }
+
+
+/* About Section*/
+.about{
+    padding: 60px;
+    background: #f9fafb;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left{
+    flex-basis: 30%;
+}
+
+.about-left img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.about-right{
+    flex-basis: 65%;
+}
+
+.about-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #0f2a44;
+}
+
+.about-right p{
+    margin: 20px 0;
+    color: gray;
+}
+
+.se{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.skills-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0f2a44;
+}
+
+.education-title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0f2a44;
+}
+
+.mark{
+     list-style: none;
+     color: gray;
+}
+
+.skills ul li span{
+    color: #0f2a44;
+}
+
+.education ul li span{
+    color: #0f2a44;
+}
