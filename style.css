@@ -76,7 +76,6 @@ html{
 /* About Section*/
 .about{
     padding: 60px;
-    background: #f9fafb;
 }
 
 .about-container{
@@ -140,3 +139,56 @@ html{
 .education ul li span{
     color: #0f2a44;
 }
+
+/* Projects Section*/
+.Projects{
+    margin: 20px;
+    padding: 40px;
+}
+
+.project-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #0f2a44;
+}
+
+.project-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.project-list div{
+    background: transparent;
+    padding: 25px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.project-list div i{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.project-list div p{
+    color: gray; 
+}
+
+.project-list div h2{
+    font-size: 30px;
+    color: #0f2a44;
+    margin-bottom: 15px;
+}
+
+.project-list div a{
+    text-decoration: none;
+    color: #0f2a44;
+    font-size: 13px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+
+
