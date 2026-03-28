@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
+}
+
+body{
     background-color: #f8f8f8;
 }
 
@@ -53,6 +56,13 @@ html{
     padding: 60px;
 }
 
+#intro-left{
+    background: transparent;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
 #intro-left h1{
     font-size: 50px;
     color: #0f2a44;
@@ -70,30 +80,34 @@ html{
     height: 350px;
     width: 300px;
     border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+
 }
 
 
 /* About Section*/
-.about{
+#about{
     padding: 60px;
 }
 
 .about-container{
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .about-left{
-    flex-basis: 30%;
+    flex-basis: 35%;
 }
 
 .about-left img{
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
 .about-right{
-    flex-basis: 65%;
+    flex-basis: 60%;
 }
 
 .about-title{
@@ -110,9 +124,9 @@ html{
 .se{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch; 
+    gap: 30px;
     margin-top: 30px;
-    padding: 10px 20px;
 }
 
 .skills-title{
@@ -140,8 +154,17 @@ html{
     color: #0f2a44;
 }
 
+.skills,
+.education {
+    flex: 1;
+    background: transparent;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
 /* Projects Section*/
-.Projects{
+#Projects{
     margin: 20px;
     padding: 40px;
 }
@@ -160,6 +183,9 @@ html{
 }
 
 .project-list div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background: transparent;
     padding: 25px;
     border-radius: 10px;
@@ -189,6 +215,86 @@ html{
     margin-top: 15px;
     display: inline-block;
 }
+
+/*-------Contact Section-----*/
+#Contact{
+    padding: 60px;
+}
+
+.contact-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #0f2a44;
+}
+
+.contact-container{
+    background: transparent;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;  
+    margin-top: 20px;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 30%;
+}
+
+.contact-left a{
+    display: flex;          
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #0f2a44;
+    font-size: 18px;
+}
+
+.contact-left a i{
+    color: #ff5c5c;
+}
+
+.contact-right{
+    flex-basis: 65%;
+}
+
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-right input,
+.contact-right textarea{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-right textarea{
+    resize: none;
+    height: 80px;
+}
+
+.contact-right button{
+    background: #ff5c5c;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer; 
+}
+
+
 
 
 
