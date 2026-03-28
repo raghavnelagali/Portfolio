@@ -249,12 +249,13 @@ html{
 }
 
 .contact-left a{
-    display: flex;          
+    display: inline-flex;          
     align-items: center;
     gap: 10px;
     text-decoration: none;
     color: #0f2a44;
     font-size: 18px;
+    width: fit-content; 
 }
 
 .contact-left a i{
@@ -292,6 +293,69 @@ html{
     border-radius: 5px;
     width: 100%;
     cursor: pointer; 
+}
+
+/*-----Footer------*/
+
+.footer{
+    background: #0f2a44;
+    color: white;
+    padding: 40px 60px 20px;
+    margin-top: 50px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left h2{
+    margin-bottom: 10px;
+}
+
+.footer-left p{
+    color: #ccc;
+    max-width: 300px;
+}
+
+.footer-center ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-center ul li{
+    margin: 8px 0;
+}
+
+.footer-center ul li a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer-center ul li a:hover{
+    color: white;
+}
+
+.footer-right .social-icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-right .social-icons a{
+    color: white;
+    font-size: 20px;
+}
+
+.footer-right .social-icons a:hover{
+    color: #ff5c5c;
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #aaa;
 }
 
 

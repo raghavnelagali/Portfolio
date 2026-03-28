@@ -16,6 +16,8 @@ This is my personal portfolio website created to showcase my skills, projects, a
 2. Home section with introduction  
 3. About section with skills and education  
 4. Projects section to showcase my work  
+5. Contact section
+6. Footer section 
 
 
 ---
@@ -39,6 +41,12 @@ portfolio/
 
 ### 📂 Projects Page
 ![Projects](images/projects.png)
+
+### 📂 Contacts/Footer Page
+![Contacts](images/contact.png)
+
+### 📂 Footer Section
+![Footer](images/footer.png)
 ---
 
 ## 📌 Author
