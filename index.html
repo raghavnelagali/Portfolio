@@ -135,6 +135,9 @@
                        <input type="email" name="email" placeholder="Enter your email" required>
                        <textarea name="message" placeholder="Enter your message"></textarea>
                        <button type="submit">Submit</button>
+                       <p id="success-msg" class="success-msg">
+                          ✅ Data sent successfully!
+                       </p>
                     </form>
                 </div>
             </div>
@@ -179,5 +182,16 @@
     </p>
 </footer>
     
+<script>
+document.querySelector(".contact-right form").addEventListener("submit", function(e){
+    e.preventDefault(); // stop refresh
+
+    // show message
+    document.getElementById("success-msg").style.display = "block";
+
+    // reset form
+    this.reset();
+});
+</script>
 </body>
 </html>

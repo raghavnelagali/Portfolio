@@ -8,6 +8,7 @@ This is my personal portfolio website created to showcase my skills, projects, a
 ## 🛠️ Technologies Used
 - HTML  
 - CSS  
+- JavaScript
 
 ---
 
@@ -56,7 +57,7 @@ portfolio/
 
 ## 📬 Contact
 - Email: raghunelagali121@gmail.com  
-- LinkedIn: 
+- LinkedIn: https://www.linkedin.com/in/raghavendra-nelagali-894863290/
 
 ---
 
